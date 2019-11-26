@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textColorWhite">#FFFFFF</color>        <!-- 白色字体-->
+    <color name="textColorBlack">#000000</color>        <!-- 黑色字体-->
+    <color name="textColorBlackAsh">#333333</color>        <!-- 黑灰色字体-->
+    <color name="textColorAgreement">#26CCFF</color>        <!-- 青绿色字体-->
+    <color name="textColorBlue">#3546B6</color>        <!-- 深蓝色字体-->
+    <color name="textColorRed">#FF5B65</color>        <!-- 玫红色字体-->
+
+    <color name="btnColor">#FA80B1</color>              <!-- 按钮颜色-->
+    <color name="btnColorDisable">#FFD9E8</color>       <!-- 按钮不可点击-->
+
+    <color name="colorWhite">#ffffff</color>            <!-- 白色 -->
+    <color name="colorGray">#999999</color>             <!-- 灰色 -->
+    <color name="colorGrayLight">#EEEEEE</color>             <!-- 浅灰色 -->
+
+    <color name="colorBlack">#000000</color>            <!-- 黑色 -->
+    <color name="colorTransparent">#00FFFFFF</color>    <!-- 透明色 -->
+    <color name="colorTransparent30">#4DFFFFFF</color>    <!-- 透明色 -->
+    <color name="colorBlueLight">#1DC1FF</color>            <!-- 浅蓝色 -->
+    <color name="colorPurple">#978CFF</color>            <!-- 紫色 -->
+    <color name="colorYellowDark">#FA8D4A</color>            <!-- 深黄色 -->
+
+    <color name="textColorPrimary">#333333</color>    <!-- 用于重要级文字信息、内容标题信息、正文信息 -->
+    <color name="textColorTertiary">#A2B8C3</color>     <!-- 用于辅助、次要的文字信息、副标题等 -->
+    <color name="textColorSecondary">#666666</color>    <!-- 用于普通级段落信息、用户名、icon等 -->
+    <color name="textColorHint">#b8b8b8</color>         <!-- 用于辅助、次要的文字信息、icon等 -->
+    <color name="dividerColorGray">#e7e7e7</color>         <!-- 分割线色  1 -->
+    <color name="contentBackgroundWhite">#ffffff</color>   <!-- 内容背景色,评论输入框色  1 -->
+
+    <color name="switch_back_checked_color">#a684fc</color>
+    <color name="switch_back_unchecked_color">#e7e7e7</color>
+    <color name="switch_back_unchecked_color_custom">#66ffffff</color>
+    <color name="switch_button_checked_color">#7d63fc</color>
+    <color name="switch_button_unchecked_color">#c9c9c9</color>
+    <color name="switch_button_unchecked_color_custom">#d0d0d0</color>
+
+</resources>

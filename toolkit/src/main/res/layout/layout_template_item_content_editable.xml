@@ -1,0 +1,17 @@
+<EditText
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/et_templeate_item_content_editable"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_weight="1"
+    android:background="@null"
+    android:maxLines="1"
+    android:paddingEnd="10dp"
+    android:singleLine="true"
+    android:focusable="true"
+    android:textColor="@color/textColorPrimary"
+    android:textColorHint="@color/textColorTertiary"
+    android:textSize="@dimen/textSizeNormal"
+    tools:text="内容" />

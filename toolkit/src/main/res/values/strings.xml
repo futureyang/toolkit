@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">toolkit</string>
+
+    <string name="dateformat_date">MM月dd日</string>
+    <string name="dateformat_date_time">yyyy年MM月dd日 HH:mm</string>
+    <string name="dateformat_date_with_year_en">yyyy-MM-dd</string>
+    <string name="dateformat_date_with_year_english">yyyy-MM-dd HH:mm</string>
+    <string name="dateformat_date_with_year_zh">yyyy年MM月dd日</string>
+    <string name="dateformat_hour_minute">HH:mm</string>
+
+</resources>

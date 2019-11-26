@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MTabLayoutStyle" parent="android:Widget">
+        <item name="mt_tabMinHeight">48dp</item>
+        <item name="mt_tabMaxWidth">264dp</item>
+        <item name="mt_tabIndicatorColor">?attr/colorAccent</item>
+        <item name="mt_tabIndicatorHeight">2dp</item>
+        <item name="mt_tabPaddingStart">12dp</item>
+        <item name="mt_tabPaddingEnd">12dp</item>
+        <item name="mt_tabBackground">?attr/selectableItemBackground</item>
+        <item name="mt_tabTextAppearance">@style/MTabTextAppearance</item>
+        <item name="mt_tabSelectedTextColor">?android:attr/textColorPrimary</item>
+        <item name="mt_tabTextColor">?android:attr/textColorSecondary</item>
+        <item name="mt_tabTextSize">14dp</item>
+        <item name="mt_tabGravity">fill</item>
+        <item name="mt_tabMode">fixed</item>
+        <item name="mt_tabTextMultiLineSize">12sp</item>
+        <item name="mt_tabScrollableTabMinWidth">72dp</item>
+    </style>
+    <style name="MTabTextAppearance" parent="TextAppearance.AppCompat.Button">
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <declare-styleable name="SwitchButton">
+        <attr format="reference|dimension" name="sb_shadow_radius"/>
+        <attr format="reference|dimension" name="sb_shadow_offset"/>
+        <attr format="reference|color" name="sb_shadow_color"/>
+        <attr format="reference|boolean" name="sb_shadow_effect"/>
+
+        <attr format="reference|color" name="sb_back_checked_color"/>
+        <attr format="reference|color" name="sb_back_uncheck_color"/>
+        <attr format="reference|boolean" name="sb_checked"/>
+
+        <attr format="reference|color" name="sb_button_check_color"/>
+        <attr format="reference|color" name="sb_button_uncheck_color"/>
+
+        <attr format="reference|integer" name="sb_effect_duration"/>
+        <attr format="reference|boolean" name="sb_enable_Animate"/>
+    </declare-styleable>
+
+    <declare-styleable name="StaticRatioImageView">
+        <attr name="ratio"/>
+    </declare-styleable>
+</resources>

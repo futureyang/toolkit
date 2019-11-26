@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ShadowLayout 阴影 -->
+    <declare-styleable name="ShadowLayout">
+        <attr name="backgroundColor" format="color"/>
+        <attr name="shadowColor" format="color"/>
+        <attr name="shadowRadius" format="dimension"/>
+        <attr name="shadowDx" format="dimension"/>
+        <attr name="shadowDy" format="dimension"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="topLeftRadius" format="dimension"/>
+        <attr name="topRightRadius" format="dimension"/>
+        <attr name="bottomLeftRadius" format="dimension"/>
+        <attr name="bottomRightRadius" format="dimension"/>
+        <attr name="shadowSide">
+            <flag name="all" value="0x1111"/>
+            <flag name="left" value="0x0001"/>
+            <flag name="top" value="0x0010"/>
+            <flag name="right" value="0x0100"/>
+            <flag name="bottom" value="0x1000"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="TemplateItemLayout">
+        <attr name="cil_editable" format="boolean"/>
+        <attr name="cil_leftVisible" format="boolean"/>
+        <attr name="cil_rightVisible" format="boolean"/>
+        <attr name="cil_lineVisible" format="boolean"/>
+        <attr name="cil_content" format="string|reference"/>
+        <attr name="cil_hint" format="string|reference"/>
+        <attr name="cil_contentColor" format="color|reference"/>
+        <attr name="cil_hintColor" format="color|reference"/>
+        <attr name="cil_labelSize" format="dimension"/>
+        <attr name="cil_contentSize" format="dimension"/>
+        <attr name="cil_leftLayoutId" format="reference"/>
+        <attr name="cil_contentLayoutId" format="reference"/>
+        <attr name="cil_rightLayoutId" format="reference"/>
+        <attr name="cil_leftImageId" format="reference"/>
+        <attr name="cil_rightImageId" format="reference"/>
+        <attr name="cil_inputCipher" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="MTabLayout">
+        <attr format="color" name="mt_tabIndicatorColor"/>
+        <attr format="dimension" name="mt_tabIndicatorHeight"/>
+        <attr format="dimension" name="mt_tabContentStart"/>
+        <attr format="reference" name="mt_tabBackground"/>
+        <attr name="mt_tabMode">
+            <enum name="scrollable" value="0"/>
+            <enum name="fixed" value="1"/>
+        </attr>
+        <attr name="mt_tabGravity">
+            <enum name="fill" value="0"/>
+            <enum name="center" value="1"/>
+        </attr>
+        <attr format="dimension" name="mt_tabMinWidth"/>
+        <attr format="dimension" name="mt_tabMaxWidth"/>
+        <attr format="reference" name="mt_tabTextAppearance"/>
+        <attr format="color" name="mt_tabTextColor"/>
+        <attr format="dimension" name="mt_tabTextSize"/>
+        <attr format="color" name="mt_tabSelectedTextColor"/>
+        <attr format="dimension" name="mt_tabPaddingStart"/>
+        <attr format="dimension" name="mt_tabPaddingTop"/>
+        <attr format="dimension" name="mt_tabPaddingEnd"/>
+        <attr format="dimension" name="mt_tabPaddingBottom"/>
+        <attr format="dimension" name="mt_tabPadding"/>
+
+        <attr format="dimension" name="mt_tabTextMultiLineSize"/>
+        <attr format="dimension" name="mt_tabScrollableTabMinWidth"/>
+        <attr format="dimension" name="mt_tabIndicatorPadding"/>
+        <attr format="dimension" name="mt_tabIndicatorWidth"/>
+        <attr format="dimension" name="mt_tabMinHeight"/>
+    </declare-styleable>
+</resources>
