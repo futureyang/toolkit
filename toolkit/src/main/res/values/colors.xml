@@ -35,4 +35,13 @@
     <color name="switch_button_unchecked_color">#c9c9c9</color>
     <color name="switch_button_unchecked_color_custom">#d0d0d0</color>
 
+    <color name="table_head">#E5EFFE</color>
+    <color name="light_gray">#e6e6e6</color>
+    <color name="deep_red">#FF0033</color>
+    <color name="border_color">#817F80</color>
+    <color name="beijin">#2c8fd3</color>
+    <color name="dashline_color">#C2C0C2</color>
+    <color name="dividing_line">#FFFFC57C</color>
+    <color name="table_content">#FFFFF9E9</color>
+    <color name="table_title">#FFFE8D00</color>
 </resources>

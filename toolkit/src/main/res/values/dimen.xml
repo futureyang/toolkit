@@ -8,7 +8,7 @@
     <dimen name="textSizeMin">9sp</dimen>
 
     <dimen name="header_height">200dp</dimen>
-
+    <dimen name="textandiconmargin">10dp</dimen>
 
     <dimen name="sp_1">1sp</dimen>
     <dimen name="sp_2">2sp</dimen>
