@@ -16,4 +16,17 @@
     <string name="refresh_done">refresh done</string>
     <string name="loading_done">loading done</string>
     <string name="listview_header_last_time">last update：</string>
+
+    <!-- bugly -->
+    <string name="bugly_update_info">版本: %1$s\n包大小: %2$s\n更新时间: %3$s</string>
+    <string name="bugly_update_title_new_feature">更新说明:\n</string>
+    <string name="bugly_update_download_close_tip">关闭弹窗默认后台下载哦~</string>
+    <string name="update_bugly">更新</string>
+    <string name="bugly_check_fail">检测失败…</string>
+    <string name="bugly_check">检测中…</string>
+    <string name="bugly_check_not_version">好像没有检测到版本…</string>
+    <string name="setting_title_check_version">检测新版本</string>
+    <string name="settings_already_new_version">当前版本已经是最新版本</string>
+    <string name="settings_has_new_version">有新版本了哟,点击更新</string>
+    <string name="settings_has_new_version_checking">检测中…</string>
 </resources>

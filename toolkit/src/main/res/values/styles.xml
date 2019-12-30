@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <style name="MTabLayoutStyle" parent="android:Widget">
         <item name="mt_tabMinHeight">48dp</item>
         <item name="mt_tabMaxWidth">264dp</item>
@@ -41,4 +41,43 @@
     <declare-styleable name="StaticRatioImageView">
         <attr name="ratio"/>
     </declare-styleable>
+
+    <declare-styleable name="MaxScrollView">
+        <attr name="maxHeight"/>
+    </declare-styleable>
+    <declare-styleable name="MaxListView">
+        <attr name="maxHeight"/>
+    </declare-styleable>
+    <declare-styleable name="MaxFrameLayout">
+        <attr name="maxHeight"/>
+    </declare-styleable>
+
+    <style name="OsDialogButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:gravity">center</item>
+        <item name="android:stateListAnimator" tools:targetApi="lollipop">@null</item>
+        <item name="android:minWidth">146dp</item>
+        <item name="android:minHeight">32dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:background">@drawable/selectable_item_background</item>
+    </style>
+    <style name="OsNegativeDialogButtonStyle" parent="OsDialogButtonStyle">
+        <item name="android:textColor">#FF999999</item>
+        <item name="android:text">取消</item>
+    </style>
+    <style name="OsNeutralDialogButtonStyle" parent="OsDialogButtonStyle">
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+    <style name="OsPositiveDialogButtonStyle" parent="OsDialogButtonStyle">
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:text">@android:string/ok</item>
+    </style>
 </resources>

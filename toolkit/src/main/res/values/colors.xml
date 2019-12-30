@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="colorPrimary">#7065FB</color>
+    <color name="colorPrimaryDark">#7065FB</color>
+    <color name="colorAccent">#7065FB</color>
+
     <color name="textColorWhite">#FFFFFF</color>        <!-- 白色字体-->
     <color name="textColorBlack">#000000</color>        <!-- 黑色字体-->
     <color name="textColorBlackAsh">#333333</color>        <!-- 黑灰色字体-->

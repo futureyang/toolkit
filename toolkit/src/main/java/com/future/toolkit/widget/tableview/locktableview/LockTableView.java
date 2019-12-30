@@ -91,6 +91,10 @@ public class LockTableView {
      */
     private int mTextViewSize;
     /**
+     * 第一行单元格字体大小
+     */
+    private int mFristTextViewSize;
+    /**
      * 表格头部字体颜色
      */
     private int mTableHeadTextColor;
@@ -223,7 +227,8 @@ public class LockTableView {
         mTableHeadTextColor = R.color.beijin;
         mTableContentTextColor = R.color.border_color;
         mFristRowBackGroudColor = R.color.table_head;
-        mTextViewSize = 16;
+        mTextViewSize = 12;
+        mFristTextViewSize = 14;
         mCellPadding=DisplayUtil.dip2px(mContext,45);
     }
 
@@ -495,7 +500,7 @@ public class LockTableView {
     private void creatHeadView() {
         if (isLockFristColumn) {
             mColumnTitleView.setTextColor(ContextCompat.getColor(mContext, mTableHeadTextColor));
-            mColumnTitleView.setTextSize(TypedValue.COMPLEX_UNIT_SP, mTextViewSize);
+            mColumnTitleView.setTextSize(TypedValue.COMPLEX_UNIT_SP, mFristTextViewSize);
             mColumnTitleView.setText(mColumnTitle);
             LinearLayout.LayoutParams layoutParams = (LinearLayout.LayoutParams) mColumnTitleView.getLayoutParams();
             layoutParams.width = DisplayUtil.dip2px(mContext, mColumnMaxWidths.get(0));
@@ -693,7 +698,7 @@ public class LockTableView {
             } else {
                 textView.setTextColor(ContextCompat.getColor(mContext, mTableContentTextColor));
             }
-            textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, mTextViewSize);
+            textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, mFristTextViewSize);
             textView.setTypeface(Typeface.defaultFromStyle(Typeface.BOLD)); //第一行加粗
             textView.setGravity(Gravity.CENTER);
             textView.setText(datas.get(i));
@@ -780,6 +785,11 @@ public class LockTableView {
 
     public LockTableView setTextViewSize(int mTextViewSize) {
         this.mTextViewSize = mTextViewSize;
+        return this;
+    }
+
+    public LockTableView setFristTextViewSize(int mFristTextViewSize) {
+        this.mFristTextViewSize = mFristTextViewSize;
         return this;
     }
 
