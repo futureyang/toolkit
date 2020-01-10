@@ -80,4 +80,59 @@
         <item name="android:textColor">?attr/colorPrimary</item>
         <item name="android:text">@android:string/ok</item>
     </style>
+    <style name="OsDialogAlert" parent="OsBaseDialog"/>
+    <style name="OsBaseDialog" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:backgroundDimAmount">@dimen/os_background_dim_amount</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowMinWidthMajor">@dimen/os_window_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@dimen/os_window_min_width_minor</item>
+        <item name="android:windowBackground">@drawable/prompt_dialog_background</item>
+        <item name="android:windowElevation" tools:targetApi="lollipop">@dimen/os_dialog_window_elevation</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+    <style name="OsFullscreenPrompt" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    <item format="float" name="os_background_dim_amount" type="dimen">0.5</item>
+    <item name="os_window_min_width_major" type="dimen">65%</item>
+    <item name="os_window_min_width_minor" type="dimen">65%</item>
+    <dimen name="os_dialog_window_elevation">5dp</dimen>
+    <declare-styleable name="VectorCompatTextView">
+        <attr format="reference" name="drawableStartCompat"/>
+        <attr format="reference" name="drawableEndCompat"/>
+        <attr format="reference" name="drawableLeftCompat"/>
+        <attr format="reference" name="drawableRightCompat"/>
+        <attr format="reference" name="drawableTopCompat"/>
+        <attr format="reference" name="drawableBottomCompat"/>
+        <attr format="boolean" name="tintDrawableInTextColor"/>
+        <attr format="color|reference" name="drawableCompatTint"/>
+        <attr format="boolean" name="drawableAdjustTextWidth"/>
+        <attr format="boolean" name="drawableAdjustTextHeight"/>
+        <attr format="boolean" name="drawableAdjustViewWidth"/>
+        <attr format="boolean" name="drawableAdjustViewHeight"/>
+        <attr format="dimension|reference" name="drawableWidth"/>
+        <attr format="dimension|reference" name="drawableHeight"/>
+        <attr format="boolean" name="textIsMarquee"/>
+    </declare-styleable>
 </resources>
