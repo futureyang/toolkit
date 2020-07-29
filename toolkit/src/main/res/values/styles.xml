@@ -39,17 +39,17 @@
     </declare-styleable>
 
     <declare-styleable name="StaticRatioImageView">
-        <attr name="ratio"/>
+        <attr format="reference|dimension" name="ratio"/>
     </declare-styleable>
 
     <declare-styleable name="MaxScrollView">
-        <attr name="maxHeight"/>
+        <attr format="reference|dimension" name="maxHeight"/>
     </declare-styleable>
     <declare-styleable name="MaxListView">
-        <attr name="maxHeight"/>
+        <attr format="reference|dimension" name="maxHeight"/>
     </declare-styleable>
     <declare-styleable name="MaxFrameLayout">
-        <attr name="maxHeight"/>
+        <attr format="reference|dimension" name="maxHeight"/>
     </declare-styleable>
 
     <style name="OsDialogButtonStyle">
